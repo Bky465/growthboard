@@ -5,7 +5,7 @@ export default function FeaturesPage() {
         <h1 className="text-4xl font-bold mb-4">
           Built for real-world frontend performance
         </h1>
-        <p className="text-muted text-lg">
+        <p className="text-muted-foreground text-lg">
           GrowthBoard is a learning-focused SaaS-style platform designed to
           demonstrate production-grade frontend architecture, performance
           optimization, and rendering strategies.

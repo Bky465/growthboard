@@ -3,7 +3,7 @@ export default function PricingPage() {
     <section className="max-w-7xl mx-auto px-6 py-16">
       <div className="text-center max-w-2xl mx-auto mb-16">
         <h1 className="text-4xl font-bold mb-4">Simple, transparent pricing</h1>
-        <p className="text-muted text-lg">
+        <p className="text-muted-foreground text-lg">
           Choose a plan that fits your learning pace. No hidden costs.
         </p>
       </div>
@@ -73,7 +73,7 @@ function PricingCard({
     >
       <h3 className="text-lg font-semibold mb-2">{title}</h3>
       <p className="text-3xl font-bold mb-4">{price}</p>
-      <p className="text-sm text-muted mb-6">{description}</p>
+      <p className="text-sm text-muted-foreground mb-6">{description}</p>
 
       <ul className="space-y-3 text-sm mb-8">
         {features.map((f) => (

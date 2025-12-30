@@ -9,10 +9,10 @@ export default function Navbar() {
         </Link>
 
         <nav className="flex gap-6 text-sm">
-          <Link href="/features" className="text-muted hover:text-foreground">
+          <Link href="/features" className="text-muted-foreground hover:text-foreground">
             Features
           </Link>
-          <Link href="/pricing" className="text-muted hover:text-foreground">
+          <Link href="/pricing" className="text-muted-foreground hover:text-foreground">
             Pricing
           </Link>
           <Link

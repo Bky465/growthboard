@@ -1,6 +1,5 @@
 import "./globals.css";
 import Navbar from "@/app/components/layout/Navbar";
-import Footer from "@/app/components/layout/Footer";
 
 export const metadata = {
   title: "GrowthBoard",
@@ -17,7 +16,6 @@ export default function RootLayout({
       <body className="bg-background text-foreground">
         <Navbar />
         <main className="min-h-screen">{children}</main>
-        <Footer />
       </body>
     </html>
   );
